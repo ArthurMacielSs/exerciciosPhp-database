@@ -1,0 +1,1 @@
+SELECT customer_id, COUNT(customer_id) AS total FROM rental GROUP BY customer_id ORDER by total DESC LIMIT 5;
